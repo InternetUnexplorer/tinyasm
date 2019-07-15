@@ -1,0 +1,13 @@
+[package]
+name = "tinyasm"
+version = "0.1.0"
+authors = ["InternetUnexplorer <internetunexplorer@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nom = "5.0.0"
+
+[profile.release]
+panic = "abort"
